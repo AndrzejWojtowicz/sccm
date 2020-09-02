@@ -1,11 +1,12 @@
 # SCCM application creation script
 
-This creates '7zip' application object inside SCCM:
+This creates application object inside SCCM:
 ```
-New-CMApplication -name '7zip' -Description 'Archiving software' -AutoInstall $true
+New-CMApplication -name $ApplicationName -Description $ApplicationDescription -AutoInstall $true
 ```
 
-This creates MSI deployment type for t'7zip' appliaction:
+This creates MSI deployment type for the above appliaction:
 ```
-Add-CMMsiDeploymentType -ApplicationName “7zip” -ContentLocation “\\WFRPARLAB101\DANLAB_Packages$\7zip_1900_x64\7z1900-x64.msi" -InstallationBehaviorType InstallForSystem -Force
+Add-CMMsiDeploymentType -ApplicationName $ApplicationName -ContentLocation $ContentLocation -InstallationBehaviorType InstallForSystem -Force
 ```
+
