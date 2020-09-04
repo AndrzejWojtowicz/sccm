@@ -1,0 +1,3 @@
+﻿AppName,AppVersion,AppDescription,ContentLocation,EstimatedRuntimeMins,MaximumRuntimeMins,InstallationBehaviorType,LogonRequirementType,UserInteractionMode
+Dymo,8.3.0.443,Printer Drivers,\\WFRPARLAB101\DANLAB_Packages$\Dymo\Deploy-Application.exe,30,90,InstallForSystem,WhetherOrNotUserLoggedOn,Hidden
+SimIT,20.7.2.2,Purchasing application,\\WFRPARLAB101\DANLAB_Packages$\SimIT\Deploy-Application.exe,50,120,InstallForSystem,WhetherOrNotUserLoggedOn,Hidden

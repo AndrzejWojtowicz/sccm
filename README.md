@@ -1,5 +1,10 @@
 # SCCM application creation script
 
+## To do
+
+1. Detection checks clauses
+2. Test all possible options for Add-CMScriptDeploymentType cmdlet
+
 
 ### Application creation:
 This creates application object inside SCCM:
